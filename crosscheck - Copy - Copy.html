@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="nav">
+        <div class="black">
+
+        </div>
+        <div class="logo">   <!--------navigation -->
+
+        </div>
+        <div class="menus">
+
+        </div>
+    </div>
+
+    <!------------------sliding images----------------------->
+
+    <div class="slideshow-container">
+    
+        <div class="mySlides fade img1">
+            <img src="WhatsApp Image 2023-12-20 at 9.24.15 PM.jpeg" style="width:100%">
+        </div>
+        
+        <div class="mySlides fade img2">
+            <img src="WhatsApp Image 2023-12-20 at 9.23.52 PM.jpeg" style="width:100%">
+        </div>
+        
+        <div class="mySlides fade">
+          <img src="WhatsApp Image 2023-12-20 at 9.24.42 PM.jpeg" style="width:100%">
+        </div>
+        
+        </div>
+        <br>
+        
+        <div style="text-align:center">
+          <span class="dot"></span> 
+          <span class="dot"></span> 
+          <span class="dot"></span> 
+        </div>
+        
+
+    <!------------section two ----------------------------->
+<div class="section-two">
+  <div class="sunglasses"> 
+      <div class="one">first</div>
+      <div class="two">second</div>
+      <div class="three">third</div>
+  </div>
+
+  <div class="facilities">
+    <div class=""></div>
+    <div class=""></div>
+    <div class=""></div>
+    <div class=""></div>
+    <div class=""></div>
+  </div>
+</div>
+
+    <!------------section three----------------------------->
+
+  <div class="section-three">
+    <div class="collection"></div>
+    <div class="find-your-style"></div>
+  </div>
+
+    <!-------------section four---------------------------->
+    <div class="section-four">
+      <div class="children"></div>
+      <div class="video"></div>
+    </div>
+
+    <!-----------------section five------------------------>
+
+    <div class="section-five">
+      <div class="first">
+          <div class="about-idee"></div>
+          <div class="about-us"></div>
+      </div>
+
+      <div class="second">
+          <div class="help"></div>
+          <div class="shop"></div>
+      </div>
+
+    </div>
+
+
+    <!-----------------section last------------------------>
+
+    <div class="footer">
+
+
+    </div>
+    
+
+    <!-----------------end------------------------>
+
+    <script>
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+</body>
+</html>

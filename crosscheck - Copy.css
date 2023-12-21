@@ -1,0 +1,139 @@
+*{
+    padding: 0px;
+    margin: 0%;
+    box-sizing: border-box;
+  }
+  
+  html,body{
+    height: 100vh;
+    width: 100vw;
+  }
+  
+  .nav{
+    position: relative;
+    top: 0px;
+    height: 20%;
+    width: 100vw;
+    background-color: rgb(134, 141, 139);
+  }
+  
+  .black{
+    position: relative;
+    top: 0;
+    height: 35px;
+    width: 100vw;
+    background-color: rgb(8, 9, 9);
+  }
+  
+  .logo{
+    height: 10%;
+    width: 100vw;
+    background-color: aquamarine;
+  }
+  
+  .menus{
+    height:25px ;
+    width: 100vw;
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    left: 0%;
+    bottom: 0%;
+   /* margin-top: 40px; */
+  
+  }
+  .section-two{
+    position: relative;
+    top: 0px;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(209, 136, 11);
+  }
+  
+  .section-three{
+    position: relative;
+    top: 0px;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(18, 213, 239);
+  }
+  
+  
+  .section-four{
+    position: relative;
+    top: 0px;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(120, 209, 11);
+  }
+  
+  
+  .section-five{
+    position: relative;
+    top: 0px;
+    height: 20vh;
+    width: 100vw;
+    background-color: rgb(160, 160, 160);
+  }
+  .sunglasses{
+    display: flex;
+    position: relative;
+    top: 0px;
+    height: 50vh;
+    width: 100vw;
+    background-color: rgb(8, 57, 165);
+    padding-left: 140px;
+    
+  
+  }
+  
+  .facilities{
+    position: absolute;
+    bottom: 0px;
+    height: 50vh;
+    width: 100vw;
+    background-color: rgb(52, 107, 224);
+  }
+  
+  .sunglasses>div {
+    
+        position: relative;
+        top: 0px;
+        align-items: center;
+        height: 350px;
+        width: 350px;
+        background-color: rgb(165, 160, 8);
+        margin-left: 30px;
+        align-content: center;
+        margin: 30px;
+        justify-content: center;
+        padding-top: 30px;
+    
+  }
+  
+  .sunglasses .one{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(https://idee-eyewear.com/cdn/shop/files/Gif_1_copy_460x.gif?v=1686142175);
+  }
+  
+  .sunglasses .two{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(https://idee-eyewear.com/cdn/shop/files/Gif_1_copy_460x.gif?v=1686142175);
+  }
+  
+  .sunglasses .three{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(https://idee-eyewear.com/cdn/shop/files/Gif_1_copy_460x.gif?v=1686142175);
+  }
+  
+  .facilities{
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url(facilities.jpeg);
+    }

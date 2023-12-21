@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+
+<body>
+    <div class="mdiv">
+        <div class=".login-heading">
+            <h1 align="center" class="shadow-drop-2-center">LOGIN</h1>
+        </div>
+        <div class="login_form">
+            <div class="form_login" align="center">
+                <form action="" method="" autocomplete="off">
+                    <input type="text" name="username" placeholder="USERNAME" ID="un" />
+                    <input type="text" name="password" placeholder="......." id="pwd" />
+                    <p class="links"><a href="#">Forgot password ?</a></p>
+                    <input type="button" name="LOGIN" value="LOGIN" onclick="submitForm()" />
+                    <p class="links"><a href="#">Create Account</a></p>
+                </form>
+            </div>
+
+        </div>
+    </div>
+    <script>
+        let un1 = "SSH123";
+        let pwd1 = "ssh@123";
+        function submitForm() {
+            let un2 = document.getElementById("un").value;
+            let pwd2 = document.getElementById("pwd").value;
+            if (un1 == un2 && pwd1 == pwd2) {
+                open("index.html")
+            }
+            else {
+                alert("Incorrect Credential")
+            }
+        }
+
+    </script>
+</body>
+
+</html>

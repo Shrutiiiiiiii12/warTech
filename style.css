@@ -2,80 +2,1222 @@
     padding: 0px;
     margin: 0%;
     box-sizing: border-box;
-}
-
-html,body{
+    /* overflow: hidden; */
+  }
+  
+  html,body{
     height: 100vh;
     width: 100vw;
-}
-
-.nav{
-    position: relative;
+  }
+  
+  .nav{
+    z-index: 5;
+    position: fixed;
     top: 0px;
     height: 20%;
     width: 100vw;
-    background-color: aquamarine;
-}
-
-.black{
+    background-color: rgb(255, 255, 255);
+  }
+  
+  .black{
+    z-index: 10;
     position: relative;
-    top: 0;
+    top:0px;
     height: 35px;
     width: 100vw;
     background-color: rgb(8, 9, 9);
-}
-
-.logo{
+  }
+  
+  .logo{
     height: 10%;
     width: 100vw;
-    background-color: aquamarine;
-}
-
-.menus{
+  padding-left: 440px;
+    /* background-color: rgb(237, 241, 239); */
+  }
+  
+  .menus{
     height:25px ;
     width: 100vw;
-    background-color: rgb(0, 0, 0);
+    /* background-color: rgb(0, 0, 0); */
     position: absolute;
     left: 0%;
     bottom: 0%;
    /* margin-top: 40px; */
-
-}
-
-.slider{
-    height: 80%;
-    width: 100vw;
+  
+  }
+  .section-two{
     position: relative;
-    left: 0%;
-    background-color: bisque;
-    background-image: url(img1.png);
-    background-position: center;
-    background-size: cover;
-}
-
-.img1,.img2,.img3,.img4{
-    height: 100%;
+    top: 0px;
+    height: 100vh;
     width: 100vw;
+    /* background-color: rgb(209, 136, 11); */
+  }
+  
+  .section-three{
+    position: relative;
+    top: 0px;
+    height: 100vh;
+    width: 100vw;
+    /* background-color: rgb(18, 213, 239); */
+  }
+  
+  
+  .section-four{
+    position: relative;
+    top: 0px;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(120, 209, 11);
+  }
+  
+  
+  .section-five{
+    position: relative;
+    top: 0px;
+    height: 20vh;
+    width: 100vw;
+    background-color: rgb(160, 160, 160);
+  }
+  .sunglasses{
+    display: flex;
+    position: relative;
+    top: 0px;
+    height: 50vh;
+    width: 100vw;
+    /* background-color: rgb(8, 57, 165); */
+    padding-left: 140px;
+    
+  
+  }
+  
+  .facilities{
     position: absolute;
-    left: 0%;
-    /* background-color: bisque; */
-    /* background-image: url(img1.png); */
+    bottom: 0px;
+    height: 50vh;
+    width: 100vw;
+    /* background-color: rgb(52, 107, 224); */
+  }
+  
+  .sunglasses>div {
+    
+        position: relative;
+        top: 0px;
+        align-items: center;
+        height: 350px;
+        width: 350px;
+        background-color: rgb(165, 160, 8);
+        margin-left: 30px;
+        align-content: center;
+        margin: 30px;
+        justify-content: center;
+        padding-top: 30px;
+        text-align: center;
+        padding-top: 20px;
+        margin-top: 50px;
+        font-size: large;
+        font-weight:bolder;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    
+  }
+  
+  .sunglasses .one{
     background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
-} 
+    background-image: url(https://idee-eyewear.com/cdn/shop/files/Gif_1_copy_460x.gif?v=1686142175);
+  }
+  
+  .sunglasses .two{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(https://idee-eyewear.com/cdn/shop/files/Gif_2_copy_460x.gif?v=1686142225);
+  }
+  
+  .sunglasses .three{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(https://idee-eyewear.com/cdn/shop/files/Gif_3_copy_460x.gif?v=1686142269);
+  }
+  
+  .facilities{
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url(facilities.jpeg);
+    }
 
-.img1{
-    background-position-x: -600px;
-    background-repeat: no-repeat;
-    background-image: url(https://www.spetex.com/pub/media/codazon_cache/brand/1200x/wysiwyg/1200x338_Idee.jpg);
+    .slideshow-container{
+    mask-image: url(img2.jpeg);
+  background-repeat: no-repeat;
+
+    position: relative;
+    top: 0px;
+    height: 100vh;
+    width: 100vw;
+    /* background-color: rgb(209, 136, 11); */
+    }
+
+    img{
+     height: 100vh;
+     width: 100vw;
+    }
+
+
+    .collection{
+        display: flex;
+        padding: 10px;
+        margin-top: 0%;
+    }
+    .collection>div{
+        margin-top: 5px;
+        position: relative;
+        top: 0px;
+        align-items: center;
+        height: 350px;
+        width:350px;
+        background-color: rgb(165, 160, 8);
+        margin-left: 30px;
+        align-content: center;
+        margin: 30px;
+        justify-content: center;
+        padding-top: 30px;
+        text-align: center;
+        padding-top: 20px;
+        margin-top: 50px;
+        font-size: large;
+        font-weight:bolder;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    
+
+    }
+
+    .collection .one{
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url(https://idee-eyewear.com/cdn/shop/files/2023_050_IDEE_Web_Banners_Dippers-02_900x.jpg?v=1688124250);
+    }
+
+    .collection .two{
+        align-items: center;
+        justify-content: center;
+        margin-top: 50px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url(https://idee-eyewear.com/cdn/shop/files/Untitled-1_900x.jpg?v=1697200263);
+    }
+
+    .collection .three{
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url(https://idee-eyewear.com/cdn/shop/files/2023_050_IDEE_Web_Banners_Night_Crawlers-02_900x.jpg?v=1688124248);
+    }
+
+    .collection p{
+        padding-top: 350px;
+    }
+
+    .collection{
+        height: 60%;
+        width: 100%;
+        position: relative;
+        top:0px;
+    }
+
+    .section-three{
+      position: relative;
+      left: 0px;
+
+        padding: 0px;
+        padding-left: 30px;
+        padding-top: 0px;
+        margin-top: 0px;
+    }
+
+
+    .section-four{
+      
+        position: relative;
+        left: 0px;
+  
+          padding: 0px;
+          padding-left: 30px;
+          padding-top: 0px;
+          margin-top: 0px;
+    
+        background-position: center;
+        background-size: cover;
+        /* background-image: url(temp1.jpeg); */
+    }
+
+
+    .find-your-style{
+        background-position: center;
+        background-size: cover;
+        background-image: url(temp3.jpeg);
+        background-repeat: no-repeat;
+
+    }
+
+    .just{
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-image: url(temp1.jpeg);
+        background-repeat: no-repeat;
+
+    }
+
+
+
+    .first{
+      position: relative;
+        display: flex;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        /* background-color: brown; */
+        background-image: url(img2.jpeg);
+        background-repeat: no-repeat;
+
+    }
+
+
+    .section-five{
+        position: relative;
+        top: 0px;
+        align-items: center;
+        height: 350px;
+        width: 350px;
+        background-color: rgb(165, 160, 8);
+        margin-left: 30px;
+        align-content: center;
+        margin: 30px;
+        justify-content: center;
+        padding-top: 30px;
+        text-align: center;
+        padding-top: 20px;
+        margin-top: 50px;
+        font-size: large;
+        font-weight:bolder;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    
+
+    /*-------------------------------------------------------------------------------++*/
+
+
+    .msg{
+      margin-top: 10px;
+      /* margin-left:100%; */
+      color:white;
+      text-decoration:none;
+      padding-top: 10px;
+  }
+
+  .kids{
+    margin-left: 20px;
 }
-.img2{
-    background-position-x: -600px;
-    background-repeat: no-repeat;
-    background-image: url(https://tse3.mm.bing.net/th?id=OIP.obDu-2o3f9Xp-T2_TDsI1gHaEP&pid=Api&P=0&h=180);
+.women{
+    margin-left: 290px;
 }
-.img3{
-    background-position-x: -600px;
-    background-repeat: no-repeat;
-    background-image: url(https://www.spetex.com/pub/media/codazon_cache/brand/1200x/wysiwyg/1200x338_Idee.jpg);
+.men{
+    margin-left:300px;
+}
+
+
+.minlog{
+  position: relative;
+  display: flex;
+}
+.minlog img{
+  position: relative;
+  top: 0;
+  display: flex;
+height: 30px;
+width: auto;
+
+
+}
+
+
+.minlog div{
+  position: relative;
+  display: flex;
+}
+
+.black .msg{
+  align-items: center;
+  justify-content: center;
+
+  display: flex;
+  /* margin-top: 20px ; */
+  /* padding-top: 0px; */
+}
+
+
+
+.msg{
+  position: relative;
+  top:0px;
+
+  color: rgb(255, 255, 255);
+  /* background-color: aqua; */
+  margin-top: 0%;
+}
+
+.comb .msg{
+  justify-content: center;
+  text-align: center;
+  position: absolute;
+  top: 0px;
+ display: flex;
+ margin-left: 600px;
+}
+
+
+.logo img{
+  height: 60px;
+  width: auto;
+  margin-top: 15px;
+  align-items: center;
+  justify-content: center;
+  margin-left: 70px;
+  margin: 0%;
+  padding: 0%;
+  padding: 5px 0px;
+  padding-top: 10px;
+  
+}
+
+.menus {
+  position: absolute;
+  bottom: 0%;
+  display: flex;
+ 
+}
+
+
+.menus div{
+  margin-left: 30px;
+  align-items: center;
+  justify-content: center;
+  margin-left: 20px;
+  padding-left: 30px;
+  text-align: center;
+  color: rgb(3, 5, 7);
+  -webkit-text-fill-color: black;
+  z-index: 30;
+}
+
+
+.menus .kids{
+  margin-left: 30px;
+  padding-left: 440px;
+}
+
+
+.logo{
+  justify-content: center;
+  align-items: center;
+  padding-left: 660px;
+  position: absolute;
+  top: 33px;
+  height: 300px;
+  width: 500px;
+  margin: 5px;
+  
+}
+
+.msg a{
+  text-decoration: none;
+  color: white;
+}
+
+.sunglasses{
+  background-color: rgb(255, 255, 255) ;
+
+}
+
+
+
+.rigth .heart{
+  z-index: 20;
+  height: 30px;
+  width: 20px;
+  /* background-color: rgb(1, 10, 10); */
+  background-repeat: no-repeat;
+  
+  background-image: url(https://tse3.mm.bing.net/th?id=OIP.XkdBxBQCZd1sI4HSPt-hJwHaHX&pid=Api&P=0&h=180);
+}
+
+.heart{
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  background-image: url(https://tse4.mm.bing.net/th?id=OIP.ivHXlSC2UMyOQyd8SZw8aQHaG2&pid=Api&P=0&h=180);
+  background-repeat: no-repeat;
+  background-size: 20px;
+  background-position: right;
+  background-size: contain;
+right:40px ;
+top: 40px;
+right:40px ;
+top: 20px;
+z-index: 20;
+height: 30px;
+width: 40px;
+margin-top: 10px;
+padding-top: 70px;
+
+}
+
+.bag{
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  background-image: url(https://tse4.mm.bing.net/th?id=OIP.7sPf2buX9pu-FIgiLYRYIQHaHa&pid=Api&P=0&h=180);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
+right:60px ;
+top: 15px;
+z-index: 20;
+height: 40px;
+width: 30px;
+/* background-color: rgb(1, 10, 10); */
+
+}
+
+.logo .img{
+  position: absolute;
+  top: 5px;
+  background-image:url(idee.webp);
+  background-repeat: no-repeat;
+  height: 70px;
+  width: 250px;
+  /* background-color: aqua; */
+  padding-top: 10px;
+background-size: contain;
+}
+
+
+.kids , .women , .men{
+  text-align: center;
+  align-items: center;
+}
+
+.minlog img {
+  /* padding-left: 100px; */
+  margin-left: 15px;
+  
+}
+
+
+.menus a{
+  text-decoration: none;
+  color: black;
+}
+
+a:hover{
+  background-color: white;
+  /* border: 2px solid black; */
+  height: 50px;
+  width: 50px;
+  border-radius: 5px;
+  border-bottom: 5px solid rgb(56, 55, 55);
+  transition-duration: 0.5s;
+}
+
+.section-five .first{
+  width: 50vw;
+  height: 70vh;
+  position: absolute;
+  /* background-color: bisque; */
+  left: 0px;
+}
+.footer{
+  height: 20%;
+  width:100vw;
+  position: relative;
+  bottom: 0px;
+  /* background-color: grey; */
+}
+
+.section-five{
+  display: flex;
+  left: 0%;
+}
+
+.section-five .first{
+  height:50vh;
+  width:100vw;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  /* background-color: aqua; */
+}
+
+/* ----------------last one------------------------ */
+
+.video1{
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+.section {
+width: 50%;
+height: 50%;
+}
+
+video {
+width: 40vw;
+height: 55%;
+margin-top: 0%;
+padding: auto;
+}
+
+/* ----------------^^^^^^^^^^^^^^^^^^^^^------------------------------- */
+
+.last{
+  height: 50%;
+  width: 100vw;
+  display: flex;
+}
+
+.last .one{
+  height: 40vh;
+  width: 30%;
+  /* background-color: aquamarine; */
+}
+
+.last .two{
+  height: 40vh;
+  width: 20%;
+  /* background-color: rgb(201, 236, 115); */
+}
+.last .three{
+  height: 40vh;
+  width: 30%;
+  /* background-color: aquamarine; */
+}
+
+.last .four{
+  height: 40vh;
+  width: 20%;
+  /* background-color: rgb(201, 236, 115); */
+}
+
+
+.footer{
+  position: relative;
+  top: 0%;
+  top: 0px;
+  margin-top:400px;
+  text-align: center;
+}
+
+
+.last p{
+  font-size: large;
+  align-items: center;
+  /* text-align: justify; */
+  line-height: 30px;
+  padding-left: 20px;
+}
+
+.footer1{
+  height: 15%;
+  width:100vw;
+  background-color: rgb(188, 188, 188);
+}
+
+.last div{
+  padding-left: 20px;
+
+}
+
+.last{
+  align-items: center;
+  padding-top: 50px;
+}
+
+.footer1 pre{
+  font-size: 1opx;
+}
+
+
+
+
+*{
+  padding: 0px;
+  margin: 0%;
+  box-sizing: border-box;
+  /* overflow: hidden; */
+}
+
+html,body{
+  height: 100vh;
+  width: 100vw;
+}
+
+.nav{
+  z-index: 5;
+  position: fixed;
+  top: 0px;
+  height: 20%;
+  width: 100vw;
+  background-color: rgb(255, 255, 255);
+}
+
+.black{
+  z-index: 10;
+  position: relative;
+  top:0px;
+  height: 35px;
+  width: 100vw;
+  background-color: rgb(8, 9, 9);
+}
+
+.logo{
+  height: 10%;
+  width: 100vw;
+padding-left: 440px;
+  /* background-color: rgb(237, 241, 239); */
+}
+
+.menus{
+  height:25px ;
+  width: 100vw;
+  /* background-color: rgb(0, 0, 0); */
+  position: absolute;
+  left: 0%;
+  bottom: 0%;
+ /* margin-top: 40px; */
+
+}
+.section-two{
+  position: relative;
+  top: 0px;
+  height: 100vh;
+  width: 100vw;
+  /* background-color: rgb(209, 136, 11); */
+}
+
+.section-three{
+  position: relative;
+  top: 0px;
+  height: 100vh;
+  width: 100vw;
+  /* background-color: rgb(18, 213, 239); */
+}
+
+
+.section-four{
+  position: relative;
+  top: 0px;
+  height: 50vh;
+  width: 100vw;
+  background-color:white;
+}
+
+
+.section-five{
+  position: relative;
+  top: 0px;
+  height: 20vh;
+  width: 100vw;
+  background-color: rgb(160, 160, 160);
+}
+.sunglasses{
+  display: flex;
+  position: relative;
+  top: 0px;
+  height: 50vh;
+  width: 100vw;
+  /* background-color: rgb(8, 57, 165); */
+  padding-left: 140px;
+  
+
+}
+
+.facilities{
+  position: absolute;
+  bottom: 0px;
+  height: 50vh;
+  width: 100vw;
+  /* background-color: rgb(52, 107, 224); */
+}
+
+.sunglasses>div {
+  
+      position: relative;
+      top: 0px;
+      align-items: center;
+      height: 350px;
+      width: 350px;
+      background-color: rgb(165, 160, 8);
+      margin-left: 30px;
+      align-content: center;
+      margin: 30px;
+      justify-content: center;
+      padding-top: 30px;
+      text-align: center;
+      padding-top: 20px;
+      margin-top: 50px;
+      font-size: large;
+      font-weight:bolder;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+  
+}
+
+.sunglasses .one{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(https://idee-eyewear.com/cdn/shop/files/Gif_1_copy_460x.gif?v=1686142175);
+}
+
+.sunglasses .two{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(https://idee-eyewear.com/cdn/shop/files/Gif_2_copy_460x.gif?v=1686142225);
+}
+
+.sunglasses .three{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(https://idee-eyewear.com/cdn/shop/files/Gif_3_copy_460x.gif?v=1686142269);
+}
+
+.facilities{
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-image: url(facilities.jpeg);
+  }
+
+  .slideshow-container{
+  mask-image: url(img2.jpeg);
+  position: relative;
+  top: 0px;
+  height: 100vh;
+  width: 100vw;
+  /* background-color: rgb(209, 136, 11); */
+  }
+
+  img{
+   height: 100vh;
+   width: 100vw;
+  }
+
+
+  .collection{
+      display: flex;
+      padding: 10px;
+      margin-top: 0%;
+  }
+  .collection>div{
+      margin-top: 5px;
+      position: relative;
+      top: 0px;
+      align-items: center;
+      height: 350px;
+      width:350px;
+      background-color: rgb(106, 103, 5);
+      margin-left: 30px;
+      align-content: center;
+      margin: 30px;
+      justify-content: center;
+      padding-top: 30px;
+      text-align: center;
+      padding-top: 20px;
+      margin-top: 50px;
+      font-size: large;
+      font-weight:bolder;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+  
+
+  }
+
+  .collection .one{
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-image: url(https://idee-eyewear.com/cdn/shop/files/2023_050_IDEE_Web_Banners_Dippers-02_900x.jpg?v=1688124250);
+  }
+
+  .collection .two{
+      align-items: center;
+      justify-content: center;
+      margin-top: 50px;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-image: url(https://idee-eyewear.com/cdn/shop/files/Untitled-1_900x.jpg?v=1697200263);
+  }
+
+  .collection .three{
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-image: url(https://idee-eyewear.com/cdn/shop/files/2023_050_IDEE_Web_Banners_Night_Crawlers-02_900x.jpg?v=1688124248);
+  }
+
+  .collection p{
+      padding-top: 350px;
+  }
+
+  .collection{
+      height: 60%;
+      width: 100%;
+      position: relative;
+      top:0px;
+  }
+
+  .section-three{
+    position: relative;
+    left: 0px;
+
+      padding: 0px;
+      padding-left: 30px;
+      padding-top: 0px;
+      margin-top: 0px;
+  }
+
+
+  .section-four{
+      background-position: center;
+      background-size: cover;
+      /* background-image: url(temp1.jpeg); */
+  }
+
+
+  .find-your-style{
+      background-position: center;
+      background-size: cover;
+      background-image: url(temp3.jpeg);
+  }
+
+  .just{
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-image: url(temp1.jpeg);
+  }
+
+  .first{
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-image: url(img2.jpeg);
+
+  }
+
+
+  .section-five{
+      position: relative;
+      top: 0px;
+      align-items: center;
+      height: 350px;
+      width: 350px;
+      /* background-color: rgb(165, 8, 47); */
+      margin-left: 30px;
+      align-content: center;
+      margin: 30px;
+      justify-content: center;
+      padding-top: 30px;
+      text-align: center;
+      padding-top: 20px;
+      margin-top: 50px;
+      font-size: large;
+      font-weight:bolder;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
+
+  /-------------------------------------------------------------------------------++/
+
+
+  .msg{
+    margin-top: 10px;
+    /* margin-left:100%; */
+    color:white;
+    text-decoration:none;
+    padding-top: 10px;
+}
+
+.kids{
+  margin-left: 20px;
+}
+.women{
+  margin-left: 290px;
+}
+.men{
+  margin-left:300px;
+}
+
+
+.minlog{
+position: relative;
+display: flex;
+}
+.minlog img{
+position: relative;
+top: 0;
+display: flex;
+height: 30px;
+width: auto;
+
+
+}
+
+
+.minlog div{
+position: relative;
+display: flex;
+}
+
+.black .msg{
+align-items: center;
+justify-content: center;
+
+display: flex;
+/* margin-top: 20px ; */
+/* padding-top: 0px; */
+}
+
+.black .minlog{
+/* position: relative; */
+/* align-items: flex-start; */
+}
+
+.msg{
+position: relative;
+top:0px;
+
+color: rgb(255, 255, 255);
+/* background-color: aqua; */
+margin-top: 0%;
+}
+
+.comb .msg{
+justify-content: center;
+text-align: center;
+position: absolute;
+top: 0px;
+display: flex;
+margin-left: 600px;
+}
+
+
+.logo img{
+height: 60px;
+width: auto;
+margin-top: 15px;
+align-items: center;
+justify-content: center;
+margin-left: 70px;
+margin: 0%;
+padding: 0%;
+padding: 5px 0px;
+padding-top: 10px;
+
+}
+
+.menus {
+position: absolute;
+bottom: 0%;
+display: flex;
+
+}
+
+
+.menus div{
+margin-left: 30px;
+align-items: center;
+justify-content: center;
+margin-left: 20px;
+padding-left: 30px;
+text-align: center;
+color: aliceblue;
+-webkit-text-fill-color: black;
+}
+
+
+.menus .kids{
+margin-left: 30px;
+padding-left: 440px;
+}
+
+
+.logo{
+justify-content: center;
+align-items: center;
+padding-left: 660px;
+position: absolute;
+top: 33px;
+height: 300px;
+width: 500px;
+margin: 5px;
+
+}
+
+.msg a{
+text-decoration: none;
+color: white;
+}
+
+.sunglasses{
+background-color: rgb(255, 255, 255) ;
+
+}
+
+.section-two div{
+/* box-shadow: 0px 0px 20px black; */
+}
+
+.facilities {
+
+}
+
+.rigth .heart{
+z-index: 20;
+height: 30px;
+width: 20px;
+/* background-color: rgb(1, 10, 10); */
+
+background-image: url(https://tse3.mm.bing.net/th?id=OIP.XkdBxBQCZd1sI4HSPt-hJwHaHX&pid=Api&P=0&h=180);
+}
+
+.heart{
+position: absolute;
+height: 30px;
+width: 30px;
+background-image: url(https://tse4.mm.bing.net/th?id=OIP.ivHXlSC2UMyOQyd8SZw8aQHaG2&pid=Api&P=0&h=180);
+background-repeat: no-repeat;
+background-size: 20px;
+background-position: right;
+background-size: contain;
+right:40px ;
+top: 40px;
+right:40px ;
+top: 20px;
+z-index: 20;
+height: 30px;
+width: 40px;
+margin-top: 10px;
+padding-top: 70px;
+
+}
+
+.bag{
+position: absolute;
+height: 50px;
+width: 50px;
+background-image: url(https://tse4.mm.bing.net/th?id=OIP.7sPf2buX9pu-FIgiLYRYIQHaHa&pid=Api&P=0&h=180);
+background-repeat: no-repeat;
+background-size: contain;
+background-position: right;
+right:60px ;
+top: 15px;
+z-index: 20;
+height: 40px;
+width: 30px;
+/* background-color: rgb(1, 10, 10); */
+
+}
+
+.logo .img{
+position: absolute;
+top: 5px;
+background-image:url(idee.webp);
+background-repeat: no-repeat;
+height: 70px;
+width: 250px;
+/* background-color: aqua; */
+padding-top: 10px;
+background-size: contain;
+}
+
+
+.kids , .women , .men{
+text-align: center;
+align-items: center;
+}
+
+.minlog img {
+/* padding-left: 100px; */
+margin-left: 15px;
+
+}
+
+.video1{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+.section {
+width: 50%;
+height: 50%;
+}
+
+video {
+width: 40vw;
+height: 55%;
+margin-top: 0%;
+padding: auto;
+}
+
+
+.menus{
+  height: 600px;
+  width: 100vw;
+
+  position: fixed;
+  bottom: 0px;
+  z-index: 50;
+}
+
+
+/* .menus{
+  position: absolute;               ------------------
+  top: 120px;                       ------------------
+
+} */
+
+.button{
+  position: absolute;
+height: 30px;
+width: 30px;
+right:40px ;
+top: 10px;
+right:180px ;
+top: 20px;
+z-index: 20;
+height: 30px;
+width: 40px;
+margin-top: 2px;
+padding-top: 35px;
+text-decoration: none;
+color: black;
+}
+
+.left{
+  padding-right: 10px;
+  margin-left: 580px;
 }
